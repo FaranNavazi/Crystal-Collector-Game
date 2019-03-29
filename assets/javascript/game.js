@@ -18,6 +18,7 @@ $(document).ready(function() {
   function reset() {
       var randomNumber = Math.floor(Math.random()* 50 + 50);
       $("#randomNumber").text(randomNumber);
+      userTotal = 0;
       $("#userTotal").text(userTotal);
   }
 
